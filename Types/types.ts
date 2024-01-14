@@ -38,3 +38,9 @@ export interface CarCardProps {
     drive: string;
     cityMPG: number;
   }
+export interface filterprops {
+  manufacturer:string,
+  year:number,
+  limit:number,
+  model:string,
+}
